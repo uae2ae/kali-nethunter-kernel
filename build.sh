@@ -1,4 +1,4 @@
-##!/bin/bash
+#!/bin/bash
 # Bash Color
 green='\e[32m'
 red='\e[31m'
