@@ -3,5 +3,5 @@
 CCD64="${TD}/aarch64-9.2"
 export CROSS_COMPILE=${CCD64}/bin/aarch64-none-linux-gnu-gcc-
 ## Source repository:
-CROSS_COMPILE_SRC="https://images.kali.org/nethunter/toolchains/arm_aarch64-9.2.tar.xz"
+CROSS_COMPILE_SRC="http://kali.download/nethunter-images/latest/toolchains/arm_aarch64-9.2.tar.xz"
 CROSS_COMPILE_SRC_TYPE="wget"
