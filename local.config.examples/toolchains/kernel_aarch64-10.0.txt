@@ -3,5 +3,5 @@
 CCD64="${TD}/aarch64-10.0"
 export CROSS_COMPILE=${CCD64}/bin/aarch64-linux-
 ## Source repository:
-CROSS_COMPILE_SRC="http://kali.download/nethunter-images/latest/toolchains/kernel_aarch64-10.0.tar.xz"
+CROSS_COMPILE_SRC="https://images.kali.org/nethunter/toolchains/kernel_aarch64-10.0.tar.xz"
 CROSS_COMPILE_SRC_TYPE="wget"
