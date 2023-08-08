@@ -7,5 +7,5 @@ export CLANG_TRIPLE=aarch64-linux-gnu-
 ## "CC=clang" cannot be exported - we'll pass it to make in the function make_kernel if "CC" is set to "clang" 
 CC=clang
 ## Source repository:
-CLANG_SRC="https://images.kali.org/nethunter/toolchains/google_clang-9.0.8.tar.xz"
+CLANG_SRC="https://kali.download/nethunter-images/toolchains/google_clang-9.0.8.tar.xz"
 CLANG_SRC_TYPE="wget"
