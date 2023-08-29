@@ -6,15 +6,15 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=NetHunter Kernel for the OnePlus 7 Pro
+kernel.string=NetHunter Kernel for the Samsung Note 9 Exynos 
 do.devicecheck=1
 do.modules=1
 do.systemless=0 #Never use this for NetHunter kernels as it prevents us from writing to /lib/modules
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=OnePlus7Pro
-device.name2=guacamole
-device.name3=OnePlus 7 Pro
+device.name1=SM-N960F
+device.name2=crownlte
+device.name3=N960F
 device.name4=Guacamole
 device.name5=OnePlus7
 device.name6=guacamoleb
@@ -31,8 +31,8 @@ supported.patchlevels=
 '; } # end properties
 
 # shell variables
-block=/dev/block/bootdevice/by-name/boot;
-is_slot_device=1;
+block=/dev/block/by-name/BOOT;
+is_slot_device=0;
 ramdisk_compression=auto;
 
 ## AnyKernel methods (DO NOT CHANGE)
